@@ -9,7 +9,7 @@ const MainScreen1 = ({navigation}) => {
 
                 {/* Input */}
                 <View style={style.form}>
-                    <Text style={style.input} >Tranlation to be done here</Text>
+                    <Text style={style.input} >Hello, Welcome</Text>
 
 
                     <TouchableOpacity onPress={()=>navigation.navigate("Main")} style={ style.button }><Text  style={style.btnText}>New Capture</Text></TouchableOpacity>
